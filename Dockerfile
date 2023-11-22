@@ -1,4 +1,3 @@
-# Football_Api/Dockerfile
 FROM python:3.8
 
 ENV PYTHONDONTWRITEBYTECODE 1
