@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'config.wsgi.app'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgres_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'verceldb',
         'USER': "default",
         'HOST': "ep-patient-waterfall-06461152-pooler.eu-central-1.postgres.vercel-storage.com",
